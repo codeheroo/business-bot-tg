@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "mongodb": "^6.9.0",
+    "telegraf": "^4.16.3"
+  }
+}
