@@ -120,7 +120,7 @@ bot.on("business_message", async (ctx) => {
   const result = await myDB
     .collection("messages")
     .insertOne(ctx.update.business_message);
-  //await sendSimilarMessage(ctx, ctx.update.business_message, 1172111439);
+  
 });
 
 bot.on("edited_business_message", async (ctx) => {
